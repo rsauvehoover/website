@@ -1,7 +1,4 @@
 box: debian
 build:
   steps:
-      - arjen/hugo-build:
-        version: "0.17"
-        theme: academic
-        flags: --buildDrafts=true
+      - arjen/hugo-build@1.23.2
