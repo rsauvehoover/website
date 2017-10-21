@@ -17,6 +17,6 @@ deploy:
             packages: git
     - leipert/git-push:
             gh_oauth: $GIT_TOKEN
-            repo: pat-s/pat-s.github.io
+            repo: rsauvehoover.github.io
             branch: master
             basedir: public
